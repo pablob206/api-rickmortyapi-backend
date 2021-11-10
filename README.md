@@ -1,0 +1,1 @@
+// localhost:3000/api/data/character/?name=rick
