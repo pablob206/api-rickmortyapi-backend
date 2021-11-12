@@ -1,9 +1,9 @@
-const { Router } = require('express');
-const router = Router();
+// const { Router } = require('express');
+// const router = Router();
 // const { proccessDownload } = require('../controllers/download');
 
 
-// router.get('/download', proccessDownload);
+// router.get('/character/download', proccessDownload);
 
 
-module.exports = router;
+// module.exports = router;

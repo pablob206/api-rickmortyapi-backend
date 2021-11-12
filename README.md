@@ -1,4 +1,4 @@
-##Rutas de prueba:
+## Rutas de prueba:
 ```
 localhost:3000/api/character/
 localhost:3000/api/character/?name=rick
@@ -7,7 +7,13 @@ localhost:3000/api/character/?species=human
 localhost:3000/api/character/?gender=female
 ```
 
-##Respectivos resultados en directorio ```postman```.
+## Respectivos resultados en directorio ```postman```.
+
+-------------------------------------------------------------------------------------------------
+## Característica de encriptación:
+Ahora los archivos JSON se envian al frontEnd encriptados, se pueden desencriptar con la KEY (en el backend, la key esta almacenada en el .env). Lo ideal en este caso es enviarle la KEY al cliente por fuera de la via del endpoint, es una estrategia usada por grandes companias como mercadolibre, binance, inumerables bancos, por ejemplo se la puede enviar por SMS, whatsapp, correo electronico, etc.
+
+En el archivo utils.js se encuentra la funcion de desencriptado que puede usar el frontEnd.
 
 -------------------------------------------------------------------------------------------------
 

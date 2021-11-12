@@ -9,7 +9,7 @@ app.use('/api', require('./routes/character'));
 app.use('/api', require('./routes/location'));
 app.use('/api', require('./routes/episode'));
 
-app.use('/api', require('./routes/download'));
+// app.use('/api', require('./routes/character/download'));
 
 app.listen(process.env.PORT, () => {
     console.log(`Api rickmortyapi, run.. : ${ process.env.PORT }`);
